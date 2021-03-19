@@ -1,0 +1,8 @@
+.form {
+    background: linear-gradient(90deg, rgb(25, 36, 24), rgb(255, 207, 226));
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}

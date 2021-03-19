@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: url('Lobster-Regular.ttf');
+}
+
+body {
+    font-family: 'Lobster';
+    font-weight: 200;
+}
