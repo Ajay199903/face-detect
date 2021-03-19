@@ -62,7 +62,7 @@ class App extends React.Component {
   }
 
   onSubmit = () => {
-    fetch('http://localhost:3000/apiCall', {
+    fetch('https://mysterious-cliffs-73638.herokuapp.com/apiCall', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -71,7 +71,7 @@ class App extends React.Component {
     }).then(resp => resp.json())
     .then(resp => {
           if(resp) {
-            fetch('http://localhost:3000/image', {
+            fetch('https://mysterious-cliffs-73638.herokuapp.com/image', {
               method: 'put',
               headers: {'Content-Type': 'application/json'},
               body: JSON.stringify({
